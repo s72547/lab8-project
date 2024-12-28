@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#home {
+    padding-top: calc(120px + 20px);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 700;
+}
+
+#mainNav {
+    background-color: #212529;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #fff !important;
+}
+
+.nav-link {
+    font-size: 1rem;
+    color: #fff !important;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    color: #f8f9fa !important;
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+
+.hero {
+    background-color: #007bff;
+    padding: 80px 0;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.hero .btn {
+    font-size: 1.1rem;
+    padding: 12px 30px;
+    border-radius: 30px;
+}
+
+.about {
+    background-color: #fff;
+    padding: 80px 0;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.services {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+}
+
+.services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.services .icon {
+    margin-bottom: 20px;
+}
+
+.services h4 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.services p {
+    font-size: 1rem;
+}
+
+.services .row .col-lg-4 {
+    margin-bottom: 30px;
+}
+
+.contact {
+    background-color: #fff;
+    padding: 80px 0;
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.contact form .form-control {
+    font-size: 1rem;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact button[type="submit"] {
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    border-radius: 30px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.contact button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.footer {
+    background-color: #212529;
+}
+
+.footer p {
+    font-size: 1rem;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .services .row .col-lg-4 {
+        margin-bottom: 20px;
+    }
+
+    .about p {
+        font-size: 1rem;
+    }
+}
+
+.fixed-top {
+    position: static;
+    top: auto;
+    right: auto;
+    left: auto;
+    z-index: auto;
+}
+
+.navbar-brand img.logo {
+    height: 40px;
+    width: auto;
+}
+
+.navbar-brand img.logo {
+    max-height: 50px;
+    width: auto;
+}
